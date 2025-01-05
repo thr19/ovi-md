@@ -1,60 +1,20 @@
-# ovi-md
+# Ovi.MD
 
-This template should help get you started developing with Vue 3 in Vite.
+**Ovi.MD** is a sophisticated markdown-based note-taking application inspired by popular apps like Obsidian and Zettlr. Developed using Node.js and Vue, it aims to provide an exceptional note-taking experience with a range of standard and advanced features.
 
-## Recommended IDE Setup
+### Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Headers:** Easily organize your notes with varying levels of headers.
+- **Tables:** Create structured data tables effortlessly.
+- **Blockquotes:** Include blockquotes to emphasize important information.
+- **LaTeX Integration:** Render mathematical equations seamlessly within your notes.
+- **Customizable Themes and Styles:** Personalize your note-taking environment with numerous themes and styling options.
 
-## Customize configuration
+### Objectives
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Seamless Markdown Experience:** Provide intuitive editing tools for an uninterrupted markdown experience.
+- **Key Productivity Features:** 
+  - Support for headers, tables, and blockquotes.
+  - Integration of LaTeX for enhanced mathematical notation.
+- **Customizable Visuals:** Allow users to control the appearance with themes and styles.
+- **Cross-Platform Performance:** Ensure optimal performance and user-friendliness across Windows, macOS, and Linux platforms.
